@@ -39,9 +39,10 @@ npm start
 ## 在src/pages/Home.jsx 中 使用fetch 给esp32发送请求
 
 ```jsx
-	const left_top = () => {
+
+  const left_top = () => {
     fetch("green/lighton");
-	};
+  };
 
   const left_bottom = () => {
     fetch("blue/lighton");
