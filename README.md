@@ -1,7 +1,10 @@
 # cra-template-fwnd-router
 
-This [cra-template-fwnd-router](https://github.com/fwnanodev/cra-template-fwnd-router) template is based off [cra-template](https://www.npmjs.com/package/cra-template) that has react-router-dom v6 set up already with 5 pre-routed pages plus a Layout.jsx. It is mainly used for our Azure static web app creation script.
+This [cra-template-fwnd-router](https://github.com/fwnanodev/cra-template-fwnd-router) template is based off [cra-template](https://www.npmjs.com/package/cra-template) that has react-router-dom v6 set up already with 5 
+pre-routed pages plus a Layout.jsx. It is mainly used for our Azure static web app creation script.
 
+## function 生成快捷键
+```rfce```
 ## Configuration
 
 Once the project is built, you can customize the component names. To rename RootComponent into Home:

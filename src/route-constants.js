@@ -1,14 +1,14 @@
-export const ROOT_COMPONENT_NAME = "RootComponent";
-export const ROOT_COMPONENT_ROUTE = "/";
+export const Home_name = "home";
+export const Home_router = "/";
 
-export const SECOND_COMPONENT_NAME = "SecondComponent";
-export const SECOND_COMPONENT_ROUTE = "/second-component";
+export const First_car_name = "FirstCar";
+export const First_car_router = "/First-car";
 
-export const THIRD_COMPONENT_NAME = "ThirdComponent";
-export const THIRD_COMPONENT_ROUTE = "/third-component";
+export const Second_car_name = "SecondCar";
+export const Second_car_router = "/Second-car";
 
-export const FOURTH_COMPONENT_NAME = "FourthComponent";
-export const FOURTH_COMPONENT_ROUTE = "/fourth-component";
+export const Third_car_name = "ThirdCar";
+export const Third_car_router = "/Third-car";
 
-export const FIFTH_COMPONENT_NAME = "FifthComponent";
-export const FIFTH_COMPONENT_ROUTE = "/fifth-component";
+export const Fourth_car_name = "FourthCar";
+export const Fourth_car_router = "/Fourth-car";

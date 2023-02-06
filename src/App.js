@@ -1,28 +1,29 @@
 import { Route, Routes } from "react-router-dom";
-import './App.css';
-import Layout from './components/Layout';
-import RootComponent from './pages/RootComponent/RootComponent';
-import SecondComponent from './pages/SecondComponent/SecondComponent';
-import ThirdComponent from "./pages/ThirdComponent/ThirdComponent";
-import FourthComponent from "./pages/FourthComponent/FourthComponent";
-import FifthComponent from "./pages/FifthComponent/FifthComponent";
-import { 
-  ROOT_COMPONENT_ROUTE, 
-  SECOND_COMPONENT_ROUTE, 
-  THIRD_COMPONENT_ROUTE, 
-  FOURTH_COMPONENT_ROUTE, 
-  FIFTH_COMPONENT_ROUTE 
-} from './route-constants';
+import "./App.css";
+import Home from "./pages/Home";
+import FirstCar from "./pages/Cars/FirstCar";
+import SecondCar from "./pages/Cars/SecondCar";
+import ThirdCar from "./pages/Cars/ThirdCar";
+import FourthCar from "./pages/Cars/FourthCar";
+
+import Layout from "./components/Layout";
+import {
+  Home_router,
+  First_car_router,
+  Second_car_router,
+  Third_car_router,
+  Fourth_car_router,
+} from "./route-constants";
 
 function App() {
   return (
     <Layout>
       <Routes>
-        <Route index path={`${ROOT_COMPONENT_ROUTE}`} element={<RootComponent />} />
-        <Route path={`${SECOND_COMPONENT_ROUTE}`} element={<SecondComponent />} />
-        <Route path={`${THIRD_COMPONENT_ROUTE}`} element={<ThirdComponent />} />
-        <Route path={`${FOURTH_COMPONENT_ROUTE}`} element={<FourthComponent />} />
-        <Route path={`${FIFTH_COMPONENT_ROUTE}`} element={<FifthComponent />} />
+        <Route index path={`${Home_router}`} element={<Home />} />
+        <Route path={`${First_car_router}`} element={<FirstCar />} />
+        <Route path={`${Second_car_router}`} element={<SecondCar />} />
+        <Route path={`${Third_car_router}`} element={<ThirdCar />} />
+        <Route path={`${Fourth_car_router}`} element={<FourthCar />} />
       </Routes>
     </Layout>
   );
