@@ -4,7 +4,7 @@ module.exports = function (app) {
   // /blue 表示代理路径
   //target 表示目标服务器的地址
 
-  //   blue
+  //   green
   app.use(
     "/green",
     createProxyMiddleware({
@@ -14,7 +14,7 @@ module.exports = function (app) {
     })
   );
 
-  //   greem
+  //   blue
   app.use(
     "/blue",
     createProxyMiddleware({
